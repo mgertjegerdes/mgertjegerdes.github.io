@@ -267,3 +267,9 @@ footer a {
 footer a:hover {
     color: var(--label);
 }
+
+@media (max-width: 600px) {
+    .footer-inner .copyright {
+        flex-basis: 100%;
+    }
+}
